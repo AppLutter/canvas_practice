@@ -39,15 +39,15 @@ class Rect1 extends CustomPainter {
     // canvas.drawRect(fromCircle, paint);
 
     /// 좌 패딩, 상 패딩, 길이, 높이
-    final Rect fromLTRB = fromLTRBRect(50, 300, 150, 100);
+    final Rect fromLTRB = fromLTRBRect(50, 190, 100, 200);
     paint.color = Colors.red;
 
     canvas.drawRect(fromLTRB, paint);
 
-    Rect fromLTWHRect = Rect.fromLTWH(50, 300, 200, 200);
-    paint.color = Colors.brown;
+    // Rect fromLTWHRect = Rect.fromLTWH(50, 300, 100, 200);
+    // paint.color = Colors.brown;
 
-    canvas.drawRect(fromLTWHRect, paint);
+    // canvas.drawRect(fromLTWHRect, paint);
   }
 
   @override
